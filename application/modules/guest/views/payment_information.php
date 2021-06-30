@@ -169,7 +169,7 @@
 
                     <br>
 
-                    <div class="panel panel-default">
+                    <div class="panel panel-default credit-card-fields">
 
                         <div class="panel-heading">
                             <?php _trans('creditcard_details'); ?>

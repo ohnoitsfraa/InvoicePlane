@@ -4,3 +4,26 @@
 
    All changes made in this file will override the default styles.
    ========================================================================== */
+
+   .credit-card-fields {
+      display: none;
+   }
+
+   @media screen and (min-width: 992px)  {
+         .navbar-nav {
+            display: flex;
+            align-items: center;
+         }
+   }
+
+   .navbar-nav .dashboard-item,
+   .navbar-nav .dashboard-item a {
+      display: flex;
+      align-items: center;
+   }
+
+   .navbar-nav .dashboard-item img {
+      max-height: 3rem;
+      margin-bottom: 0;
+      margin-right: 10px;
+   }

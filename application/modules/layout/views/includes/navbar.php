@@ -9,8 +9,8 @@
 
         <div class="collapse navbar-collapse" id="ip-navbar-collapse">
             <ul class="nav navbar-nav">
-                <li><?php echo anchor('dashboard', trans('dashboard'), 'class="hidden-md"') ?>
-                    <?php echo anchor('dashboard', '<i class="fa fa-dashboard"></i>', 'class="visible-md-inline-block"') ?>
+                <li class="dashboard-item">
+                    <?php echo anchor('dashboard', ' <img src="/assets/core/img/favicon.png" class="login-logo img-responsive">' . trans('dashboard'), '') ?>
                 </li>
 
                 <li class="dropdown">
